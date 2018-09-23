@@ -45,3 +45,8 @@ git push
 1. [HTML Validator](https://validator.w3.org)
 2. [CSS Validator](https://jigsaw.w3.org/css-validator/)
 3. [Final Code for Lab from Week 4](https://github.com/FranceskaXhakaj/pui-2018/tree/master/week4_final_code)
+
+### From Assignment 2
+> Muddy Paws Adventure Gear:​ We are a small store that sells customizable hiking and adventuring gear for your cat or dog. We are committed to helping all cats and dogs live to their full potential, experiencing the wild alongside their human hiker pals! Our online store helps people buy our line of gear:
+> Sizes - Tiny/Small/Medium/Large
+> Colors - Strawberry/Blackberry/Crazyberry/Fire Orange
