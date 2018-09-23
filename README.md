@@ -38,7 +38,7 @@ git push
 ```
 5. The deadline for the Assignment is ​Mon Oct 1 2018 11:59pm​. We will count as your final submission the last ​git push​ before that time. Anything pushed after that date and time will be counted as late submission.
  
-### ★ Bonus (maximum 5 pts total)
+### ★ Bonus (maximum 5 pts total) ★
 - Prototype with HTML and CSS additional site pages or add product detail pages for more than one product item
  
 ### Resources​:
@@ -47,7 +47,7 @@ git push
 3. [Final Code for Lab from Week 4](https://github.com/FranceskaXhakaj/pui-2018/tree/master/week4_final_code)
 
 ### From Assignment 2
-> Muddy Paws Adventure Gear:​ We are a small store that sells customizable hiking and adventuring gear for your cat or dog. We are committed to helping all cats and dogs live to their full potential, experiencing the wild alongside their human hiker pals! Our online store helps people buy our line of gear:
+> Muddy Paws Adventure Gear:​ We are a small store that sells customizable hiking and adventuring gear for your cat or dog. We are committed to helping all cats and dogs live to their full potential, experiencing the wild alongside their human hiker pals! Our online store helps people buy our line of gear.
 >
 > Sizes (Tiny/Small/Medium/Large)
 >
