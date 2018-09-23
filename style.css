@@ -4,14 +4,29 @@ body {
     width: 100%;
 }
 
+h1{
+    color: 7D9A60
+}
+
+h2 {
+    text-align: center;
+    color: 7D9A60
+}
+
+div {
+    margin: 0;
+    padding: 0;
+}
+
 nav {
+    margin: 0;
+    padding 0;
     padding-left: 40px;
     padding-right: 40px;
     color: white;
-    border: none;
     text-align: right;
-    background-color: darkgreen;
-    height: 70px;
+    background-color: #744C28;
+    height:70px;
 }
 
 .nav-bar {
@@ -25,6 +40,7 @@ nav {
 
 .logo {
     padding: 0;
+    color: white;
     font-family: monospace;
     font-size: 36pt;
     float: left;
@@ -36,14 +52,27 @@ nav {
 .home-banner {
     position: relative;
     width: 100%;
-    border: none;
-    height: 60%;
     overflow: hidden;
 }
 
 .home-banner-img {
-    position: absolute;
-    margin: 0;
+    height: auto;
     width: 100%;
-    top: -25%
+}
+
+button {
+    background-color: #7D9A60;
+    border: none;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.centered {
+    text-align: center;
 }
