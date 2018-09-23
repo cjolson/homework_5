@@ -22,6 +22,7 @@ nav {
     position: relative;
     top: 50%;
 }
+
 .logo {
     padding: 0;
     font-family: monospace;
@@ -30,12 +31,6 @@ nav {
     margin-top: 8px;
     margin-bottom: 8px;
     position: relative;
-}
-
-
-
-.home {
-    height %50;
 }
 
 .home-banner {
@@ -51,12 +46,4 @@ nav {
     margin: 0;
     width: 100%;
     top: -25%
-}
-
-.home-banner {
-    
-}
-
-.home-banner {
-    
 }
