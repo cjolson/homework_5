@@ -78,6 +78,21 @@ button {
 
 .shop-item-picture {
     border-radius: 50%;
-    height: 200px;
-    width: 200px;
+    height: 225px;
+    width: 225px;
+}
+
+.items {
+    width: 60%;
+    border-spacing: 5px;
+    margin: 0 auto;
+}
+
+tr, td {
+    padding: 30px;
+    text-align: center;
+}
+
+.button {
+    margin: 30;
 }
