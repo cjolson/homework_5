@@ -50,7 +50,6 @@ nav {
 }
 
 .home-banner {
-    position: relative;
     width: 100%;
     overflow: hidden;
 }
@@ -75,4 +74,10 @@ button {
 
 .centered {
     text-align: center;
+}
+
+.shop-item-picture {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
 }
