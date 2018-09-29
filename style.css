@@ -1,19 +1,19 @@
 body {
-    margin: 0;
-    padding: 0;
+    margin: 0 auto;
+    padding: 0 auto;
     width: 100%;
-}
-
-h1{
-    color: 7D9A60
 }
 
 h2 {
     text-align: center;
-    color: 7D9A60
 }
 
 div {
+    margin: 0;
+    padding: 0;
+}
+
+p {
     margin: 0;
     padding: 0;
 }
@@ -23,16 +23,13 @@ nav {
     padding 0;
     padding-left: 40px;
     padding-right: 40px;
-    color: white;
     text-align: right;
-    background-color: #744C28;
     height:70px;
 }
 
 .nav-bar {
     padding: 20px;
     font-family: "Helvetica";
-    color: white;
     text-decoration: none;
     position: relative;
     top: 50%;
@@ -40,7 +37,6 @@ nav {
 
 .logo {
     padding: 0;
-    color: white;
     font-family: monospace;
     font-size: 36pt;
     float: left;
@@ -60,9 +56,6 @@ nav {
 }
 
 button {
-    background-color: #7D9A60;
-    border: none;
-    color: white;
     padding: 10px 20px 10px 20px;
     text-align: center;
     text-decoration: none;
@@ -78,8 +71,8 @@ button {
 
 .shop-item-picture {
     border-radius: 50%;
-    height: 225px;
-    width: 225px;
+    height: 200px;
+    width: 200px;
 }
 
 .items {
@@ -89,10 +82,17 @@ button {
 }
 
 tr, td {
-    padding: 30px;
+    padding: 20px;
     text-align: center;
 }
 
 .button {
     margin: 30;
+}
+
+.color-selection-view {
+    height: 20px;
+    width: 120px;
+    margin: 20px auto;
+    background: #D0026B;
 }
