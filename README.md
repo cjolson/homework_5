@@ -2,7 +2,7 @@
  
 ## 05-430 / 05-630 Fall 2018 – Programming Usable Interfaces
 ### Assignment 5: Web HTML and CSS Prototypes (21 pts) Assigned: Wed Sep 19 2018
-**Due: Mon Oct 1 2018 11:59pm**
+**Due: Mon Oct 7 2018 11:59pm**
  
 ### To Do
  For the client that you based your Assignment 2 and 3, and based on the high-fidelity prototypes you created in Assignment3 you will create Web HTML/CSS Prototypes.
@@ -18,7 +18,7 @@
 
 #### CSS:
 5. (2 pts) Create and include at least 1 CSS file.
-6. (1 pts) Make sure the CSS file is well formatted and use the ​CSS validator​ to validate your CSS file.
+6. (1 pts) Make sure the CSS file is well formatted and use the CSS validator to validate your CSS file.
 7. (1 pts) Indent, comment and follow the CSS style guides. Both HTML + CSS:
 8. (3 pts) These web prototypes should look as close to your high-fidelity digital mockup as possible. Certainly, you should implement in your web prototype what changes are necessary.
 9. Note: You can use VANILLA HTML/CSS code only; don’t use frameworks like Bootstrap or other libraries (you can “look at it” means you can look at how they do the HTML and CSS and format in a similar way, but DON’T import Bootstrap or other libraries).
@@ -36,7 +36,7 @@ git add *
 git commit -m “Please write a message that makes sense here; it is good practice”
 git push
 ```
-5. The deadline for the Assignment is Mon Oct 1 2018 11:59pm​. We will count as your final submission the last ```git push``` before that time. Anything pushed after that date and time will be counted as late submission.
+5. The deadline for the Assignment is Mon Oct 7 2018 11:59pm. We will count as your final submission the last ```git push``` before that time. Anything pushed after that date and time will be counted as late submission.
  
 ### ★ Bonus (maximum 5 pts total) ★
 - Prototype with HTML and CSS additional site pages or add product detail pages for more than one product item
