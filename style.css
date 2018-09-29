@@ -1,21 +1,9 @@
-body {
-    margin: 0 auto;
-    padding: 0 auto;
+/****** navigation ******/
+header {
+    margin: 0px;
+    padding: 0px;
     width: 100%;
-}
-
-h2 {
-    text-align: center;
-}
-
-div {
-    margin: 0;
-    padding: 0;
-}
-
-p {
-    margin: 0;
-    padding: 0;
+    height: 70px;
 }
 
 nav {
@@ -25,6 +13,7 @@ nav {
     padding-right: 40px;
     text-align: right;
     height:70px;
+    background-color: lightgrey;
 }
 
 .nav-bar {
@@ -45,14 +34,21 @@ nav {
     position: relative;
 }
 
-.home-banner {
+/****** main content ******/
+body {
+    margin: 0 auto;
+    padding: 0 auto;
     width: 100%;
-    overflow: hidden;
 }
 
-.home-banner-img {
-    height: auto;
-    width: 100%;
+div {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
 }
 
 button {
@@ -63,10 +59,38 @@ button {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+    margin: 30px auto; 
 }
 
-.centered {
+/****** home ******/
+#home-banner-img {
+    height: auto;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#home-banner {
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+#featured {
     text-align: center;
+}
+
+#featured-items {
+    width: 60%;
+    border-spacing: 5px;
+    margin: 0 auto;
+}
+
+/****** items *******/
+
+.item {
+    margin: 15px;
 }
 
 .shop-item-picture {
@@ -75,24 +99,43 @@ button {
     width: 200px;
 }
 
-.items {
-    width: 60%;
-    border-spacing: 5px;
-    margin: 0 auto;
-}
-
-tr, td {
-    padding: 20px;
-    text-align: center;
-}
-
-.button {
-    margin: 30;
-}
-
 .color-selection-view {
     height: 20px;
     width: 120px;
     margin: 20px auto;
     background: #D0026B;
 }
+
+.item-name-browsing {
+    text-align: center;
+}
+
+.item-price-browsing {
+    text-align: center;
+}
+
+/****** shop ******/
+
+#shop {
+    text-align: center;
+    border-spacing: 5px;
+    margin-left: auto;
+    width: 70%;
+}
+
+#filter-menu {
+    background-image: linear-gradient(grey 15%, white 75%);
+    position: fixed;
+    width: 260px;
+    height: 100%;
+    background-color: grey;
+    padding-top: 60px;
+}
+
+
+#filter-selections {
+    height: 30px;
+}
+
+
+*/
