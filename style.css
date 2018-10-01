@@ -3,28 +3,31 @@ header {
     margin: 0px;
     padding: 0px;
     width: 100%;
+    border-bottom: 1.5px solid #81A632;
 }
 
 nav {
+    width: 80%;
+    margin: 0 auto;
     height: 50px;
     padding: 10px 15px;
     text-align: right;
     background-color: #F2F2F2;
-    border-bottom: 1.5px solid #81A632;
 }
 
 .nav-bar {
     text-decoration: none;
     color: #81A632;
     top: 50%;
-    padding: 0px 20px 0px 20px;
+    position: relative;
+    padding: 0px 0px 0px 60px;
     text-align: center;
-    font-size: 15pt
+    font-size: 14pt
 }
 
 .logo {
     float: left;
-    font-size: 40px;
+    font-size: 48px;
     padding: 0;
     margin: 0;
     color: #81A632;
@@ -76,10 +79,19 @@ button {
     color: #F2811D;
 }
 
+.tertiary-background {
+    background-color: #EBF2DC;
+}
+
+.tertiary-text {
+    color: #EBF2DC;
+}
+
 
 /****** items *******/
 .item {
-    margin: 30px;
+    display: inline-block;
+    margin: 20px 40px;
 }
 
 .shop-item-picture {
@@ -115,12 +127,17 @@ button {
 #home-banner {
     width: 100%;
     overflow: hidden;
-    margin: 0;
+    margin: 0px 0px 20px 0px;
     padding: 0;
+    height: 60%;
+    border-bottom: 1.5px solid #81A632;
 }
 
 #featured {
     text-align: center;
+    margin: 0 auto;
+    padding: 0;
+    border-bottom: 1.5px solid #81A632;
 }
 
 #featured-items {
@@ -146,13 +163,33 @@ button {
     padding-top: 60px;
 }
 
-
 #filter-selections {
     height: 30px;
 }
 
-
 #top-bar {
     color: F2F2F2;
     text-align: center;
+}
+
+.row {
+    padding: 0;
+    width: 80%;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 36px;
+    padding: 0;
+    margin: 0;
+}
+
+footer {
+    padding: 30px;
+    color: #81A632;
+    text-align: center;
+}
+
+#footer-content {
+    margin: 0 auto;
 }
