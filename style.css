@@ -6,22 +6,27 @@ header {
 }
 
 nav {
-    margin: 0;
-    padding: 0px 100px 0px 100px;
+    height: 50px;
+    padding: 10px 15px;
     text-align: right;
-    height: 40px;
-    color: #81A632;
+    background-color: #F2F2F2;
+    border-bottom: 1.5px solid #81A632;
 }
 
 .nav-bar {
+    text-decoration: none;
     color: #81A632;
+    top: 50%;
     padding: 0px 20px 0px 20px;
+    text-align: center;
+    font-size: 15pt
 }
 
 .logo {
+    float: left;
+    font-size: 40px;
     padding: 0;
     margin: 0;
-    float: left;
     color: #81A632;
 }
 
@@ -46,6 +51,8 @@ p {
 button {
     padding: 10px 20px 10px 20px;
     text-align: center;
+    background-color: #81A632;
+    color: #F2F2F2;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
@@ -131,9 +138,10 @@ button {
 }
 
 #filter-menu {
-    background-image: linear-gradient(#EBF2DC 15%, #F2F2F2 75%);
+    background-image: linear-gradient(#EBF2DC 10%, #F2F2F2 60%);
     width: 260px;
     height: 100%;
+    margin: 0px 0px 0px 0px;
     background-color: grey;
     padding-top: 60px;
 }
