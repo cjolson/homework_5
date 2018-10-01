@@ -16,7 +16,6 @@ nav {
 }
 
 .nav-bar {
-    text-decoration: none;
     color: #81A632;
     top: 50%;
     position: relative;
@@ -60,7 +59,7 @@ button {
     display: inline-block;
     font-size: 16px;
     cursor: pointer;
-    margin: 30px auto; 
+    margin: 20px 0px 20px 0px; 
 }
 
 .primary-background {
@@ -109,10 +108,15 @@ button {
 
 .item-name-browsing {
     text-align: center;
+    margin: 5px;
+    font-size: 24px;
+    color: #020202;
+    font-weight: 200;
 }
 
 .item-price-browsing {
     text-align: center;
+    color: #ACBF84;
 }
 
 /****** home ******/
@@ -127,7 +131,6 @@ button {
 #home-banner {
     width: 100%;
     overflow: hidden;
-    margin: 0px 0px 20px 0px;
     padding: 0;
     height: 60%;
     border-bottom: 1.5px solid #81A632;
@@ -136,7 +139,7 @@ button {
 #featured {
     text-align: center;
     margin: 0 auto;
-    padding: 0;
+    padding: 15px;
     border-bottom: 1.5px solid #81A632;
 }
 
@@ -181,7 +184,7 @@ button {
 h2 {
     font-size: 36px;
     padding: 0;
-    margin: 0;
+    margin: 20px;
 }
 
 footer {
@@ -192,4 +195,8 @@ footer {
 
 #footer-content {
     margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
 }
