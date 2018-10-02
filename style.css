@@ -110,14 +110,15 @@ button {
 .item-name-browsing {
     text-align: center;
     margin: 5px 0px 2px 0px;
-    font-size: 24px;
-    color: #020202;
+    font-size: 22px;
+    color: #81A632;
     font-weight: 200;
 }
 
 .item-price-browsing {
     text-align: center;
-    color: #ACBF84;
+    font-size: 18px;
+    color: #020202;
 }
 
 /****** home ******/
