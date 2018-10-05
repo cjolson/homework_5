@@ -1,4 +1,7 @@
+/************************/
 /****** navigation ******/
+/************************/
+
 header {
     margin: 0px;
     padding: 0px;
@@ -37,7 +40,10 @@ nav {
     color: #81A632;
 }
 
+/**************************/
 /****** main content ******/
+/**************************/
+
 body {
     margin: 0px;
     padding: 0;
@@ -102,7 +108,10 @@ button {
     color: #EBF2DC;
 }
 
+/********************/
 /****** footer ******/
+/********************/
+
 footer {
     padding: 30px;
     text-align: center;
@@ -118,7 +127,9 @@ footer {
     color: #81A632;
 }
 
+/********************/
 /****** items *******/
+/********************/
 
 .shop-item-picture {
     border-radius: 50%;
@@ -147,7 +158,10 @@ footer {
     color: #020202;
 }
 
+/******************/
 /****** home ******/
+/******************/
+
 #home-banner-img {
     height: auto;
     transform: translateY(-35%);
@@ -174,20 +188,35 @@ footer {
     width: 80%;
 }
 
-#featured-items {
-    width: 60%;
-    border-spacing: 5px;
-    margin: 0 auto;
+.featured-item-1 {
+    grid-row: 2 / span 1;
+    grid-column: 1;
 }
 
-.row {
-    padding: 0;
-    width: 60%;
-    margin: 0 auto;
-    display: inline;
+.featured-title {
+    text-align: center;
+    grid-column: 2/3;
 }
 
+.featured-item-2 {
+    grid-row: 2 / span 1;
+    grid-column: 2;
+}
+
+.featured-item-3 {
+    grid-row: 2 / span 1;
+    grid-column: 3;
+}
+
+#see-more {
+    text-align: center;
+    grid-column: 2/3;
+    grid-row: 3;
+}
+
+/******************/
 /****** shop ******/
+/******************/
 
 #shop-page {
     display: flex;
@@ -274,28 +303,41 @@ footer {
     grid-row: 4 / span 1;
     grid-column: 3;
 }
-.featured-item-1 {
-    grid-row: 2 / span 1;
-    grid-column: 1;
+
+/***********************/
+/****** Item Page ******/
+/***********************/
+
+
+.item-page-img {
+    width: 500px;
+    float: left;
 }
 
-.featured-title {
+.view {
+    margin: 150px 60px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+#item-page-details {
     text-align: center;
-    grid-column: 2/3;
 }
 
-.featured-item-2 {
-    grid-row: 2 / span 1;
-    grid-column: 2;
-}
-
-.featured-item-3 {
-    grid-row: 2 / span 1;
-    grid-column: 3;
-}
-
-#see-more {
+#recommened-items {
     text-align: center;
-    grid-column: 2/3;
-    grid-row: 3;
+}
+
+.item-price {
+    color: #020202;
+    font-size: 24px;
+    margin: 0;
+}
+
+.item-name {
+    font-size: 36px;
+    color: #F2811D;
+    font-weight: bold;
 }
