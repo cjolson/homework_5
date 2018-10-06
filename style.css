@@ -362,7 +362,11 @@ h3 {
 
 
 #size-selections {
-
+    border: solid 1px #013220;
+    margin: 100px 0px 20px 0px;
+    width: 200px;
+    padding: 3px 5px;
+    color: #013220;
 }
 
 #recommend-item-1 {
@@ -386,7 +390,11 @@ h3 {
 
 
 #color-selection {
-
+    border: solid 1px #013220;
+    margin: 10px 0px 20px 0px;
+    width: 300px;
+    padding: 3px 5px;
+    color: #013220;
 }
 
 #item-details {
