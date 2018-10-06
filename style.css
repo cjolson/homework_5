@@ -25,11 +25,11 @@ nav {
 
 .nav-bar {
     color: #81A632;
-    top: 50%;
     position: relative;
     padding: 0px 0px 0px 60px;
     text-align: center;
-    font-size: 14pt
+    font-size: 14pt;
+    top: 30%;
 }
 
 .logo {
@@ -68,7 +68,7 @@ h2 {
 }
 
 p {
-    color: #020202;
+    color: #013220;
 }
 
 button {
@@ -138,24 +138,21 @@ footer {
 }
 
 .color-selection-view {
-    height: 20px;
-    width: 120px;
-    margin: 15px auto;
-    background: #D0026B;
+    margin: 15px auto 5px;;
 }
 
 .item-name-browsing {
     text-align: center;
     margin: 5px 0px 2px 0px;
-    font-size: 22px;
+    font-size: 20px;
     color: #81A632;
-    font-weight: 200;
+    font-weight: bold;
 }
 
 .item-price-browsing {
     text-align: center;
     font-size: 18px;
-    color: #020202;
+    color: #013220;
 }
 
 /******************/
@@ -185,7 +182,7 @@ footer {
     grid-gap: 0px;
     text-align: center;
     margin: 0px auto;
-    width: 80%;
+    width: 70%;
 }
 
 .featured-item-1 {
@@ -333,13 +330,12 @@ h3 {
     margin: 0 auto;
     grid-row: 3;
     grid-column: 2;
-    
 }
 
 .item-price {
     text-align: center;
     margin: 0 auto;
-    color: #020202;
+    color: #013220;
     font-size: 24px;
     margin: 0;
 }
@@ -348,7 +344,7 @@ h3 {
     text-align: center;
     margin: 0 auto;
     font-size: 36px;
-    color: #F2811D;
+    color: #81A632;
     font-weight: bold;
 }
 
@@ -357,11 +353,10 @@ h3 {
 #item-page-content {
     display: grid;
     grid-template-columns: auto auto;
-    grid-template-rows: 150px auto auto;
+    grid-template-rows: 100px auto auto;
     grid-gap: 10px auto;
     margin: 0 auto;
     padding: 0px;
-    width: 90%;
 }
 
 
@@ -373,15 +368,17 @@ h3 {
 #recommend-item-1 {
     float: left;
     text-align: center;
-    margin: 15px 30px auto;
+    margin: 15px 30px;
     grid-row: 4;
     grid-column: 2;
+    display: inline-block;
 }
 
 #recommended-item-2 {
+    display: inline-block;
     text-align: center;
     float: right;
-    margin: 15px 30px auto;
+    margin: 15px 30px;
     grid-row: 4;
     grid-column: 2;
 }
@@ -399,7 +396,44 @@ h3 {
 }
 
 #item-description {
-    padding: 20px 100px;
+    width: 500px;
+    margin: 20 auto;
     grid-row: 3;
     grid-column: 1;
+}
+
+.preview-strawberry {
+    display: inline-block;
+    background-color: #FC5A8D;
+    height: 20px;
+    width: 30px;
+}
+
+.preview-blackberry {
+    display: inline-block;
+    background-color: #4D0036;
+    height: 20px;
+    width: 30px;
+}
+
+.preview-crazberry {
+    display: inline-block;
+    background-color: #950714;
+    height: 20px;
+    width: 30px;  
+}
+
+.preview-fire-orange {
+    display: inline-block;
+    background-color: #E38C2D;
+    height: 20px;
+    width: 30px;
+}
+
+.item-coloring {
+    background-image: linear-gradient(#EBF2DC 30%, #F2F2F2 95%);
+    grid-row: 1 / span 3;
+    grid-column: 1;
+    width: 540px;
+    margin: 0 auto; 
 }
