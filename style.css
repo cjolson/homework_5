@@ -10,7 +10,7 @@ header {
 }
 
 #top-bar {
-    color: F2F2F2;
+    color: #F2F2F2;
     text-align: center;
 }
 
@@ -52,6 +52,7 @@ body {
 }
 
 a {
+    color: #F2F2F2;
     text-decoration: none;
 }
 
@@ -64,7 +65,7 @@ div {
 h2 {
     font-size: 36px;
     padding: 0;
-    margin: 20px;
+    margin: 30px;
 }
 
 p {
@@ -72,7 +73,7 @@ p {
 }
 
 button {
-
+    cursor: pointer;   
 }
 
 .primary-background {
@@ -104,7 +105,7 @@ button {
 /********************/
 
 footer {
-    margin: 50px 0px 0px 0px;
+    margin: 20px 0px 0px 0px;
     padding: 30px;
     text-align: center;
     border-top: 1.5px solid #81A632;
@@ -123,11 +124,6 @@ footer {
 /****** items *******/
 /********************/
 
-.shop-item-picture {
-    border-radius: 50%;
-    height: 200px;
-    width: 200px;
-}
 
 .color-selection-view {
     margin: 15px auto 5px;;
@@ -152,28 +148,36 @@ footer {
 /******************/
 
 #home-banner-img {
-    height: auto;
     width: 100%;
-    margin: 0;
-    padding: 0;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+
 }
 
 #home-banner {
     width: 100%;
-    overflow: hidden;
+    height: 100%;
+    top: 0; 
+    left: 0;
     padding: 0;
-    height: 60%;
+    margin: 0;
+    position: absolute;
     border-bottom: 1.5px solid #81A632;
+    background-image: url("Assets/Stock-Images/jorge-flores-98842-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100% auto;
 }
 
 #featured {
     display: grid;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto auto;
-    grid-gap: 0px;
+    grid-column-gap: 60px;
     text-align: center;
     margin: 0px auto;
-    width: 70%;
+    width: 80%;
 }
 
 .featured-item-1 {
@@ -200,6 +204,14 @@ footer {
     text-align: center;
     grid-column: 2/3;
     grid-row: 3;
+    padding: 10px 40px;
+    background-color: #81A632;
+    color: #F2F2F2;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 30px auto; 
 }
 
 /******************/
@@ -213,9 +225,7 @@ footer {
 #filter-menu {
     width: 25%;
     background-image: linear-gradient(#EBF2DC 40%, #F2F2F2 60%);
-    height: 100%;
     margin: 0px 0px 0px 0px;
-    background-color: grey;
     padding-top: 60px;
 }
 
@@ -235,9 +245,9 @@ footer {
 
 #shop-content {
     display: grid;
-    grid-template-columns: 250 250 250;
+    grid-template-columns: 250px 250px 250px;
     grid-template-rows: 80px 60px auto auto;
-    grid-gap: 15px auto;
+    grid-gap: 15px;
     text-align: center;
     margin: 20px auto;
     padding: 0px;
@@ -346,7 +356,7 @@ h3 {
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: 100px auto auto;
-    grid-gap: 10px auto;
+    grid-gap: 5px;
     margin: 0 auto;
     padding: 0px;
 }
@@ -389,12 +399,12 @@ h3 {
 #item-details {
     grid-row: 3;
     grid-column: 1;
-    width 500px;
+    width: 500px;
 }
 
 #item-description {
     width: 500px;
-    margin: 20 auto;
+    margin: 20px auto;
     grid-row: 3;
     grid-column: 1;
 }
@@ -480,7 +490,6 @@ h3 {
     font-size: 16px;
     cursor: pointer;
     margin: 20px 0px 20px 0px; 
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3); 
 }
 
 .select-tiny {
@@ -546,7 +555,6 @@ h3 {
     float: right;
     font-size:18px;
     margin: 10px 70px 50px 0px;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3); 
 }
 
 .image-wheel {
@@ -556,7 +564,7 @@ h3 {
 .star {
     margin: 10px 0px 5px 0px;
     display: inline-block;
-    font-size: 18px;
+    font-size: 24px;
     color: #F2811D;
 }
 
@@ -573,5 +581,56 @@ h3 {
 
 .write-reviews {
     color: #F2811D;
-    font-size: 14;
+    font-size: 14px;
+}
+
+
+
+#welcome {
+    width: 100%;
+    height: 50%;
+    position: relative;
+    padding-bottom: 56.25%
+}
+
+.shop-dog-harness-img {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    content: url("Assets/Items/dog-leash-shop.jpg");
+}
+
+.shop-cat-harness-img {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    content: url("Assets/Items/dog-leash-shop.jpg");
+}
+
+.shop-gps-tracker-img {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    content: url("Assets/Items/dog-leash-shop.jpg");
+}
+
+.shop-food-attachment-img {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    content: url("Assets/Items/dog-leash-shop.jpg");
+}
+
+.shop-water-attachment-img {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    content: url("Assets/Items/dog-leash-shop.jpg");
+}
+
+.shop-cat-backpack-img {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    content: url("Assets/Items/dog-leash-shop.jpg");
 }
