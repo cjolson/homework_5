@@ -72,15 +72,7 @@ p {
 }
 
 button {
-    padding: 10px 20px 10px 20px;
-    text-align: center;
-    background-color: #81A632;
-    color: #F2F2F2;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    cursor: pointer;
-    margin: 20px 0px 20px 0px; 
+
 }
 
 .primary-background {
@@ -161,7 +153,6 @@ footer {
 
 #home-banner-img {
     height: auto;
-    transform: translateY(-35%);
     width: 100%;
     margin: 0;
     padding: 0;
@@ -220,8 +211,8 @@ footer {
 }
 
 #filter-menu {
-    width: 20%;
-    background-image: linear-gradient(#EBF2DC 10%, #F2F2F2 60%);
+    width: 25%;
+    background-image: linear-gradient(#EBF2DC 40%, #F2F2F2 60%);
     height: 100%;
     margin: 0px 0px 0px 0px;
     background-color: grey;
@@ -323,6 +314,7 @@ h3 {
 #item-page-info {
     grid-row: 2;
     grid-column: 2;
+    text-align: center;
 }
 
 #recommened-items {
@@ -343,7 +335,7 @@ h3 {
 .item-name {
     text-align: center;
     margin: 0 auto;
-    font-size: 36px;
+    font-size: 42px;
     color: #81A632;
     font-weight: bold;
 }
@@ -362,11 +354,9 @@ h3 {
 
 
 #size-selections {
-    border: solid 1px #013220;
-    margin: 100px 0px 20px 0px;
-    width: 200px;
-    padding: 3px 5px;
     color: #013220;
+    margin: 10px 10px 10px 30px;
+    text-align: left;
 }
 
 #recommend-item-1 {
@@ -390,11 +380,10 @@ h3 {
 
 
 #color-selection {
-    border: solid 1px #013220;
-    margin: 10px 0px 20px 0px;
-    width: 300px;
-    padding: 3px 5px;
+    margin: 100px 10px 10px 30px;
     color: #013220;
+    width: 80%;
+    text-align: left;
 }
 
 #item-details {
@@ -439,9 +428,150 @@ h3 {
 }
 
 .item-coloring {
-    background-image: linear-gradient(#EBF2DC 30%, #F2F2F2 95%);
-    grid-row: 1 / span 3;
-    grid-column: 1;
-    width: 540px;
-    margin: 0 auto; 
+    background-image: linear-gradient(#F2F2F2 40%, #EBF2DC 60%);
+    grid-row: 2 / span 2;
+    grid-column: 1 / span 2;
+}
+
+.select-strawberry {
+    display: inline-block;
+    background-color: #FC5A8D;
+    height: 40px;
+    width: 50px;
+    border-radius: 6px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3); 
+}
+
+
+.select-blackberry {
+    display: inline-block;
+    background-color: #4D0036;
+    height: 40px;
+    width: 50px;
+    border-radius: 6px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3); 
+}
+
+.select-crazberry {
+    display: inline-block;
+    background-color: #950714;
+    height: 40px;
+    width: 50px;
+    border-radius: 6px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3); 
+}
+
+.select-fire-orange {
+    display: inline-block;
+    background-color: #E38C2D;
+    height: 40px;
+    width: 50px;
+    border-radius: 6px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3); 
+}
+
+.action-button {
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+    background-color: #81A632;
+    color: #F2F2F2;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 20px 0px 20px 0px; 
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3); 
+}
+
+.select-tiny {
+    padding: 10px 20px;
+    margin: 10px 0px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3); 
+    font-size: 14px;
+}
+
+.select-small {
+    padding: 10px 20px;
+    margin: 10px 0px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3); 
+    font-size: 14px;
+}
+
+.select-medium {
+    padding: 10px 20px;
+    margin: 10px 0px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3); 
+    font-size: 14px;
+}
+
+.select-large {
+    padding: 10px 20px;
+    margin: 10px 0px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3); 
+    font-size: 14px;
+}
+
+.other-image {
+    opacity: 0.6;
+    display: inline-block;
+    margin: 15px auto;
+    height: 60px;
+    width: 80px;
+    background-color: grey;
+}
+
+
+
+.arrow-image-roll {
+    display: inline-block;
+    margin: 15px 15px;
+    height: 60px;
+    width: 50px;
+    background-color: grey;
+}
+
+.image-choice {
+    margin: 0 auto;
+}
+
+.cart {
+    padding: 15px 30px 15px 30px;
+    text-align: center;
+    background-color: #81A632;
+    color: #F2F2F2;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    float: right;
+    font-size:18px;
+    margin: 10px 70px 50px 0px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3); 
+}
+
+.image-wheel {
+    text-align: center;
+}
+
+.star {
+    margin: 10px 0px 5px 0px;
+    display: inline-block;
+    font-size: 18px;
+    color: #F2811D;
+}
+
+.rating {
+    color: #F2811D;
+}
+
+.all-reviews {
+    height: 15px;
+    margin: 0px 0px 5px 0px;
+    color: #ACBF84;
+    font-size: 18px;
+}
+
+.write-reviews {
+    color: #F2811D;
+    font-size: 14;
 }
