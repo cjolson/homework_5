@@ -25,7 +25,7 @@
 10. Please cite any external resources you use.
  
 ### Submission:
-1. In your main Github PUI folder in your computer, create a new folder and call it homework_5​.
+1. In your main Github PUI folder in your computer, create a new folder and call it homework_5.
 2. You should include all the files required in this write up in that folder.
    - HTML, CSS files.
    - Reflection file. The reflection can be pdf or MSword.
